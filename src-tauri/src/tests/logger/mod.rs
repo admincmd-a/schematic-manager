@@ -1,6 +1,8 @@
 use super::*;
 use std::path::{Path, PathBuf};
 
+// AIGC
+
 /// 测试用临时目录。放在工程内的 target 下，与其余模块的测试保持一致。
 fn temp_dir(tag: &str) -> PathBuf {
     let d = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
